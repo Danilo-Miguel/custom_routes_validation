@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "custom_routes_validation",
+    "slug": "custom_routes_validation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.danilomiguel.custom_routes_validation"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Show current location on map."
+        }
+      ],
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZGFuaWxvbWlndWVsMTQ4NSIsImEiOiJjbGZyMGI4YmMwMGt3M3VrOHIwYzNyZ2VhIn0.uu2FELZlU70-C20DvGNl7w",
+          "RNMapboxMapsVersion": "11.0.0"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "15d2a357-9902-4bae-91d3-552062e7e283"
+      }
+    }
+  }
+}
