@@ -25,17 +25,11 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      [
-        "expo-location",
-        {
-          "locationWhenInUsePermission": "Show current location on map."
-        }
-      ],
+  
       [
         "@rnmapbox/maps",
         {
           "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZGFuaWxvbWlndWVsMTQ4NSIsImEiOiJjbGZyMGI4YmMwMGt3M3VrOHIwYzNyZ2VhIn0.uu2FELZlU70-C20DvGNl7w",
-          "RNMapboxMapsVersion": "11.0.0"
         }
       ]
     ],
